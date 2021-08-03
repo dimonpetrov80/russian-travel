@@ -1,0 +1,32 @@
+.cover__backgraund{
+    max-width: 1184px;
+    position: absolute;
+    left: 48px;
+    right: 48px;
+    top: 0;
+    z-index: 0;
+}
+@media screen and (max-width: 1024px) {
+  .cover__backgraund{
+    width: 1024px;
+    height: 640px;
+    left: 0;
+    top: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover__backgraund{
+    width: 768px;
+    height: 480px;
+    left: 0;
+    top: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+    .cover__backgraund{
+      width: 320px;
+      height: 200px;
+      left: 0;
+      top: 0;
+    }
+}

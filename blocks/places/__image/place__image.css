@@ -1,0 +1,23 @@
+.place__image{
+    width: 460px;
+}
+.place__image:nth-child(3){
+    grid-column: 1;
+    grid-row: span 2;
+}
+@media screen and (max-width: 1024px) {
+    .place__image{
+        width: 441px;
+      }
+    }
+@media screen and (max-width: 768px) {
+    .place__image{
+        width: 340px;
+      }
+    }
+@media screen and (max-width: 320px) {
+    .place__image{
+        width: 320px;
+        margin-left: -16px;
+      }
+    }

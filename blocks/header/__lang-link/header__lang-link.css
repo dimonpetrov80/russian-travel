@@ -1,0 +1,18 @@
+.header__lang-link{
+    display: inline-block;
+    color: #ffffff;
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    line-height: 96%;
+}
+@media screen and (max-width: 320px) {
+    .header__lang-link{
+        font-family: Inter;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+        line-height: 92%;
+      }
+    }

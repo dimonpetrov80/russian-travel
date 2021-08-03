@@ -1,0 +1,19 @@
+.lead__caption{
+    color: #ffffff;
+    text-align: start;
+    margin: 0;
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    line-height: 116%;
+}
+@media screen and (max-width: 320px) {
+    .header__lang-link{
+        font-family: Inter;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 14px;
+        line-height: 116%;
+      }
+    }
